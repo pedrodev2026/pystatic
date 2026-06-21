@@ -1,0 +1,13 @@
+def main():
+    i = 0
+    while i < 5:
+        print(i)
+        i = i + 1
+    
+    x = 100
+    if x > 50:
+        print("big")
+    elif x == 50:
+        print("mid")
+    else:
+        print("small")

@@ -1,0 +1,18 @@
+import http
+import json
+
+def main():
+    server = http.Server(addr=":3000")
+
+    def hello(req: http.Request) -> http.Response:
+        msg = f"Hello from PyStatic!"
+        data = json.encode({"message": msg, "status": "ok"})
+        return http.Response(
+            status=200,
+            body=data,
+            headers={"Content-Type": "application/json"}
+        )
+
+    server.handle_func("/api/hello", hello)
+    print("API running on :3000")
+    server.listen_and_serve()

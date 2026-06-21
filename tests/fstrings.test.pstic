@@ -1,0 +1,8 @@
+def main():
+    name = f"PyStatic"
+    version = f"0.1"
+    greeting = f"Welcome to {name} v{version}"
+    print(greeting)
+    x = 42
+    msg = f"The answer is {x}"
+    print(msg)

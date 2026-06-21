@@ -1,0 +1,7 @@
+def main():
+    x = 10 % 3
+    print(x)
+    y = 17 % 5
+    print(y)
+    z = 100 % 7
+    print(z)

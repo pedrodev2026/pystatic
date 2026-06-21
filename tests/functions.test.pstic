@@ -1,0 +1,13 @@
+def add(a: int, b: int) -> int:
+    return a + b
+
+def greet(name: str) -> str:
+    return f"Hello, {name}!"
+
+def main():
+    result = add(3, 4)
+    print(result)
+    msg = greet("World")
+    print(msg)
+    nested = add(add(1, 2), add(3, 4))
+    print(nested)
