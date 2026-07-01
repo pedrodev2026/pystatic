@@ -3,6 +3,7 @@
 A Python-style language that compiles to Go. Write Python, ship Go binaries.
 
 [![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](LICENSE)
+[![Support the project](https://img.shields.io/badge/Support-the%20project-ff69b4?logo=github-sponsors&logoColor=white)](https://apoie.pedrodev.top)
 
 ---
 
